@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "home": "Početna",
+    "about": "O nama",
+    "membership": "Članstvo",
+    "services": "Usluge PKS",
+    "regions": "Regionalne komore",
+    "bizChat": "Biz Chat",
+    "news": "Vesti",
+    "contact": "Kontakt",
+    "callCenter": "Call centar 0800 808 809",
+    "investInSerbia": "Investirajte u Srbiju",
+    "helpForStartups": "Pomoć za startape"
+  },
+  "hero": {
+    "title": "Privredna komora Srbije",
+    "subtitle": "Podrška srpskom poslovanju od 1857. godine",
+    "ctaInvest": "Investirajte u Srbiju",
+    "ctaStartup": "Podrška za startape"
+  },
+  "about": {
+    "title": "O PKS",
+    "whoWeAre": "Ko smo mi",
+    "whoWeAreText": "Privredna komora Srbije (PKS) je najveća poslovna asocijacija u Srbiji, koja zastupa interese preko 70.000 kompanija iz svih sektora privrede.",
+    "mission": "Naša misija",
+    "missionText": "Podržavamo razvoj srpske privrede pružanjem usluga kompanijama, promovisanjem međunarodne saradnje i zagovaranjem boljeg poslovnog okruženja.",
+    "network": "Globalna mreža",
+    "networkText": "PKS održava aktivnu saradnju sa preko 200 privrednih komora širom sveta, olakšavajući međunarodna poslovna partnerstva i trgovinske prilike."
+  },
+  "services": {
+    "title": "Naše usluge",
+    "businessSupport": "Poslovna podrška",
+    "businessSupportText": "Sveobuhvatna pomoć za razvoj poslovanja, istraživanje tržišta i strateško planiranje.",
+    "internationalTrade": "Međunarodna trgovina",
+    "internationalTradeText": "Olakšavanje izvoza, uvoza i međunarodnih poslovnih veza.",
+    "legalServices": "Pravne usluge",
+    "legalServicesText": "Stručni pravni saveti, verifikacija ugovora i arbitražne usluge.",
+    "educationTraining": "Obrazovanje i obuka",
+    "educationTrainingText": "Programi profesionalnog razvoja, seminari i radionice za unapređenje poslovnih veština."
+  },
+  "stats": {
+    "companies": "Članica kompanije",
+    "chambers": "Partnerske komore",
+    "experience": "Godine iskustva",
+    "offices": "Regionalne kancelarije"
+  },
+  "footer": {
+    "pks": "PKS",
+    "description": "Privredna komora Srbije",
+    "address": "Resavska 13-15, Beograd, Srbija",
+    "quickLinks": "Brzi linkovi",
+    "contact": "Kontakt",
+    "email": "Email: info@pks.rs",
+    "phone": "Telefon: +381 11 3304 000",
+    "copyright": "© 2025 Privredna komora Srbije. Sva prava zadržana."
+  },
+  "invest": {
+    "hero": {
+      "title": "Investirajte u Srbiju",
+      "subtitle": "Otkrijte izuzetne investicione mogućnosti u jugoistočnoj Evropi"
+    },
+    "intro": {
+      "title": "Zašto investirati u Srbiju?",
+      "text": "Srbija nudi jedinstvenu kombinaciju strateške lokacije, kvalifikovane radne snage, konkurentnih troškova i povoljne investicione klime, što je čini idealnom destinacijom za međunarodne investitore."
+    },
+    "advantages": {
+      "location": "Strateška lokacija",
+      "locationText": "Smeštena na raskršću Evrope, Srbija pruža odličan pristup tržištima EU i služi kao kapija ka Balkanu, sa preko 800 miliona potrošača u krugu od 1.000 km.",
+      "workforce": "Kvalifikovana radna snaga",
+      "workforceText": "Visoko obrazovana i višejezična radna snaga sa jakim tehničkim veštinama, konkurentnim troškovima rada i rastućim IT sektorom priznatim širom Evrope.",
+      "costs": "Konkurentni troškovi",
+      "costsText": "Niži operativni troškovi u poređenju sa zemljama EU, uključujući konkurentne plate, pristupačne nekretnine i smanjene opšte troškove.",
+      "zones": "Industrijske zone",
+      "zonesText": "Moderni industrijski parkovi i slobodne zone koje nude poreske olakšice, odličnu infrastrukturu i pojednostavljene administrativne procedure.",
+      "economy": "Rastuća privreda",
+      "economyText": "Stabilan ekonomski rast, kontrolisan javni dug i kontinuirano poboljšanje rangiranja poslovnog okruženja.",
+      "support": "Investiciona podrška",
+      "supportText": "Sveobuhvatna podrška od strane srpske vlade i PKS-a, uključujući podsticaje, subvencije i administrativnu pomoć."
+    },
+    "sectors": {
+      "title": "Ključni investicioni sektori",
+      "automotive": "Automobilska industrija",
+      "automotiveText": "Rastuća automobilska industrija sa velikim međunarodnim proizvođačima, jakim lancem snabdevanja i iskusnom radnom snagom.",
+      "it": "IT i digitalne usluge",
+      "itText": "Prosperitetan tehnološki ekosistem, visoko kvalifikovani softverski programeri i konkurentni razvojni troškovi.",
+      "agriculture": "Poljoprivreda i prehrambena industrija",
+      "agricultureText": "Bogata poljoprivredna tradicija, plodno zemljište i značajan izvozni potencijal u prehrambenim proizvodima.",
+      "energy": "Energija i obnovljivi izvori",
+      "energyText": "Rastući sektor obnovljive energije sa mogućnostima u solarnoj, vetro i hidroelektričnoj energiji.",
+      "construction": "Građevinarstvo i nekretnine",
+      "constructionText": "Rastući građevinski sektor sa infrastrukturnim projektima i mogućnostima za stambeni razvoj.",
+      "healthcare": "Zdravstvo i farmaceutska industrija",
+      "healthcareText": "Uspostavljena farmaceutska industrija sa modernim objektima i istraživačkim kapacitetima."
+    },
+    "cta": {
+      "title": "Spremni da investirate?",
+      "text": "Kontaktirajte PKS odeljenje za investicije za personalizovanu podršku i vodstvo tokom vašeg investicionog puta.",
+      "button": "Kontaktirajte investicioni tim",
+      "home": "Nazad na početnu"
+    }
+  },
+  "startups": {
+    "hero": {
+      "title": "Pomoć za startape",
+      "subtitle": "Osnaživanje srpskih preduzetnika za izgradnju uspešnih poslova"
+    },
+    "intro": {
+      "title": "PKS podrška startap ekosistemu",
+      "text": "Privredna komora Srbije pruža sveobuhvatnu podršku startapima i preduzetnicima, pomažući im da se izbore sa izazovima izgradnje i skaliranja inovativnih poslova u Srbiji."
+    },
+    "support": {
+      "registration": "Registracija startapa",
+      "registrationText": "Pojednostavljen proces registracije kompanije, pravna pomoć i smernice za izbor odgovarajuće poslovne strukture za vaš startap.",
+      "mentorship": "Mentorski programi",
+      "mentorshipText": "Pristup iskusnim mentorima iz različitih industrija koji pružaju smernice, savete i podršku tokom vašeg startap putovanja.",
+      "training": "Obuke i radionice",
+      "trainingText": "Redovne radionice, seminari i obuke koje pokrivaju poslovne planove, marketing, finansije i tehnološke teme.",
+      "networking": "Umrežavanje",
+      "networkingText": "Povežite se sa drugim preduzetnicima, investitorima i liderima industrije kroz naše redovne događaje za umrežavanje i startap sastanke.",
+      "funding": "Podrška finansiranju",
+      "fundingText": "Informacije o dostupnim grantovima, kreditima i investicionim prilikama, plus veze sa angel investitorima i fondovima rizičnog kapitala.",
+      "coworking": "Co-working prostori",
+      "coworkingText": "Pristup pristupačnom kancelarijskom prostoru, salama za sastanke i deljenim objektima dizajniranim za startape u ranoj fazi."
+    },
+    "programs": {
+      "title": "Startap programi i inicijative",
+      "hub": "Inovacioni hab",
+      "hubText": "Posvećeni prostor za tehnološke startape sa pristupom modernoj opremi, brzom internetu i prostorima za saradnju. Hab organizuje redovne pitch događaje i demo dane.",
+      "export": "Program za ubrzanje izvoza",
+      "exportText": "Podrška startapima koji žele da se prošire međunarodno, uključujući pomoć u istraživanju tržišta, učešće u trgovinskim misijama i podršku izvoznoj dokumentaciji.",
+      "digital": "Podrška digitalnoj transformaciji",
+      "digitalText": "Pomoć pri implementaciji digitalnih rešenja, e-trgovinskih platformi i strategija onlajn marketinga za tradicionalne poslove koji prelaze na digitalno.",
+      "women": "Mreža žena preduzetnica",
+      "womenText": "Poseban program podrške za startape koje vode žene, uključujući posvećeno mentorstvo, mogućnosti finansiranja i događaje za umrežavanje."
+    },
+    "cta": {
+      "title": "Započnite svoje startap putovanje",
+      "text": "Pridružite se PKS startap zajednici i dobijte podršku koja vam je potrebna da svoju poslovnu ideju pretvorite u stvarnost.",
+      "button": "Registrujte svoj startap",
+      "home": "Nazad na početnu"
+    }
+  }
+}
+

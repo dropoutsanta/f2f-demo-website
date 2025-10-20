@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --pks-blue: #2C4C6E;
+  --pks-blue-dark: #1a3b5d;
+  --pks-blue-light: #4a7ba7;
+  --pks-red: #E74C3C;
+  --pks-red-dark: #c0392b;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply text-gray-900 bg-white;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-block px-8 py-3 rounded-md font-semibold transition-all duration-300 cursor-pointer;
+  }
+  
+  .btn-primary {
+    @apply bg-pks-red text-white hover:bg-pks-red-dark hover:-translate-y-0.5 hover:shadow-lg;
+  }
+  
+  .btn-secondary {
+    @apply bg-transparent text-white border-2 border-white hover:bg-white hover:text-pks-blue;
+  }
+  
+  .section {
+    @apply py-20;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .card {
+    @apply bg-white p-8 rounded-xl shadow-md transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl;
+  }
+}
+

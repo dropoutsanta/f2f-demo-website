@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "membership": "Membership",
+    "services": "PKS Services",
+    "regions": "Regional Chambers",
+    "bizChat": "Biz Chat",
+    "news": "News",
+    "contact": "Contact",
+    "callCenter": "Call center 0800 808 809",
+    "investInSerbia": "Invest in Serbia",
+    "helpForStartups": "Help for Startups"
+  },
+  "hero": {
+    "title": "Serbian Chamber of Commerce and Industry",
+    "subtitle": "Supporting Serbian Business Excellence Since 1857",
+    "ctaInvest": "Invest in Serbia",
+    "ctaStartup": "Support for Startups"
+  },
+  "about": {
+    "title": "About PKS",
+    "whoWeAre": "Who We Are",
+    "whoWeAreText": "The Serbian Chamber of Commerce and Industry (PKS) is the largest business association in Serbia, representing the interests of over 70,000 companies across all sectors of the economy.",
+    "mission": "Our Mission",
+    "missionText": "We support the development of the Serbian economy by providing services to companies, promoting international cooperation, and advocating for a better business environment.",
+    "network": "Global Network",
+    "networkText": "PKS maintains active cooperation with over 200 chambers of commerce worldwide, facilitating international business partnerships and trade opportunities."
+  },
+  "services": {
+    "title": "Our Services",
+    "businessSupport": "Business Support",
+    "businessSupportText": "Comprehensive assistance for business development, market research, and strategic planning.",
+    "internationalTrade": "International Trade",
+    "internationalTradeText": "Facilitation of exports, imports, and international business connections.",
+    "legalServices": "Legal Services",
+    "legalServicesText": "Expert legal advice, contract verification, and arbitration services.",
+    "educationTraining": "Education & Training",
+    "educationTrainingText": "Professional development programs, seminars, and business skill workshops."
+  },
+  "stats": {
+    "companies": "Member Companies",
+    "chambers": "Partner Chambers",
+    "experience": "Years of Experience",
+    "offices": "Regional Offices"
+  },
+  "footer": {
+    "pks": "PKS",
+    "description": "Serbian Chamber of Commerce and Industry",
+    "address": "Resavska 13-15, Belgrade, Serbia",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "email": "Email: info@pks.rs",
+    "phone": "Phone: +381 11 3304 000",
+    "copyright": "© 2025 Serbian Chamber of Commerce and Industry. All rights reserved."
+  },
+  "invest": {
+    "hero": {
+      "title": "Invest in Serbia",
+      "subtitle": "Discover Exceptional Investment Opportunities in Southeast Europe"
+    },
+    "intro": {
+      "title": "Why Invest in Serbia?",
+      "text": "Serbia offers a unique combination of strategic location, skilled workforce, competitive costs, and favorable investment climate, making it an ideal destination for international investors."
+    },
+    "advantages": {
+      "location": "Strategic Location",
+      "locationText": "Located at the crossroads of Europe, Serbia provides excellent access to EU markets and serves as a gateway to the Balkans, with over 800 million consumers within a 1,000 km radius.",
+      "workforce": "Skilled Workforce",
+      "workforceText": "Highly educated and multilingual workforce with strong technical skills, competitive labor costs, and a growing IT sector recognized across Europe.",
+      "costs": "Competitive Costs",
+      "costsText": "Lower operational costs compared to EU countries, including competitive wages, affordable real estate, and reduced overhead expenses.",
+      "zones": "Industrial Zones",
+      "zonesText": "Modern industrial parks and free zones offering tax incentives, excellent infrastructure, and streamlined administrative procedures.",
+      "economy": "Growing Economy",
+      "economyText": "Stable economic growth, manageable public debt, and consistently improving business environment rankings.",
+      "support": "Investment Support",
+      "supportText": "Comprehensive support from the Serbian government and PKS, including incentives, subsidies, and administrative assistance."
+    },
+    "sectors": {
+      "title": "Key Investment Sectors",
+      "automotive": "Automotive Industry",
+      "automotiveText": "Growing automotive sector with major international manufacturers, strong supply chain, and experienced workforce.",
+      "it": "IT & Digital Services",
+      "itText": "Thriving tech ecosystem, highly skilled software developers, and competitive development costs.",
+      "agriculture": "Agriculture & Food Processing",
+      "agricultureText": "Rich agricultural tradition, fertile land, and significant export potential in food products.",
+      "energy": "Energy & Renewables",
+      "energyText": "Growing renewable energy sector with opportunities in solar, wind, and hydroelectric power.",
+      "construction": "Construction & Real Estate",
+      "constructionText": "Expanding construction market with infrastructure projects and residential development opportunities.",
+      "healthcare": "Healthcare & Pharmaceuticals",
+      "healthcareText": "Established pharmaceutical industry with modern facilities and research capabilities."
+    },
+    "cta": {
+      "title": "Ready to Invest?",
+      "text": "Contact PKS Investment Department for personalized support and guidance throughout your investment journey.",
+      "button": "Contact Investment Team",
+      "home": "Back to Home"
+    }
+  },
+  "startups": {
+    "hero": {
+      "title": "Support for Startups",
+      "subtitle": "Empowering Serbian Entrepreneurs to Build Successful Businesses"
+    },
+    "intro": {
+      "title": "PKS Startup Ecosystem Support",
+      "text": "The Serbian Chamber of Commerce and Industry provides comprehensive support for startups and entrepreneurs, helping them navigate the challenges of building and scaling innovative businesses in Serbia."
+    },
+    "support": {
+      "registration": "Startup Registration",
+      "registrationText": "Simplified company registration process, legal assistance, and guidance on choosing the right business structure for your startup.",
+      "mentorship": "Mentorship Programs",
+      "mentorshipText": "Access to experienced mentors from various industries who provide guidance, advice, and support throughout your startup journey.",
+      "training": "Training & Workshops",
+      "trainingText": "Regular workshops, seminars, and training sessions covering business planning, marketing, finance, and technology topics.",
+      "networking": "Networking Events",
+      "networkingText": "Connect with other entrepreneurs, investors, and industry leaders through our regular networking events and startup meetups.",
+      "funding": "Funding Support",
+      "fundingText": "Information about available grants, loans, and investment opportunities, plus connections to angel investors and venture capital funds.",
+      "coworking": "Co-working Spaces",
+      "coworkingText": "Access to affordable office space, meeting rooms, and shared facilities designed for early-stage startups."
+    },
+    "programs": {
+      "title": "Startup Programs & Initiatives",
+      "hub": "Innovation Hub",
+      "hubText": "A dedicated space for tech startups with access to modern equipment, high-speed internet, and collaboration areas. The hub hosts regular pitch events and demo days.",
+      "export": "Export Acceleration Program",
+      "exportText": "Support for startups looking to expand internationally, including market research assistance, trade mission participation, and export documentation support.",
+      "digital": "Digital Transformation Support",
+      "digitalText": "Assistance with implementing digital solutions, e-commerce platforms, and online marketing strategies for traditional businesses transitioning to digital.",
+      "women": "Women Entrepreneurs Network",
+      "womenText": "Special support program for women-led startups, including dedicated mentorship, funding opportunities, and networking events."
+    },
+    "cta": {
+      "title": "Start Your Startup Journey",
+      "text": "Join the PKS startup community and get the support you need to turn your business idea into reality.",
+      "button": "Register Your Startup",
+      "home": "Back to Home"
+    }
+  }
+}
+
