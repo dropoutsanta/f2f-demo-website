@@ -46,3 +46,30 @@
   }
 }
 
+@layer utilities {
+  /* Custom utilities for PKS brand colors */
+  .bg-pks-blue {
+    background-color: var(--pks-blue);
+  }
+  
+  .bg-pks-blue-dark {
+    background-color: var(--pks-blue-dark);
+  }
+  
+  .bg-pks-red {
+    background-color: var(--pks-red);
+  }
+  
+  .bg-pks-red-dark {
+    background-color: var(--pks-red-dark);
+  }
+  
+  .text-pks-blue {
+    color: var(--pks-blue);
+  }
+  
+  .text-pks-red {
+    color: var(--pks-red);
+  }
+}
+

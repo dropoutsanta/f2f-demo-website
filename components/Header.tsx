@@ -81,17 +81,17 @@ export default function Header() {
   return (
     <header className="bg-white text-pks-blue sticky top-0 z-50 shadow-lg">
       <div className="container-custom">
-        <div className="flex justify-between items-center py-4 flex-wrap gap-4">
+        <div className="flex justify-between items-center py-4">
           {/* Logo Section */}
           <Link href={`/${locale}`} className="flex items-center">
             <img 
               src="/images/logo_cir@2x.png" 
               alt="Privredna komora Srbije" 
-              className="h-16 w-auto"
+              className="h-12 md:h-16 w-auto"
             />
           </Link>
 
-          {/* Navigation */}
+          {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-6">
             <Link 
               href={`/${locale}`} 
@@ -114,19 +114,17 @@ export default function Header() {
           </nav>
 
           {/* Right Section */}
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-3 md:gap-6">
             {/* Contact Button */}
-            <a 
-              href={`/${locale}/contact`} 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hidden md:block bg-pks-red text-white px-4 py-2 rounded-lg font-semibold hover:bg-red-700 transition-colors"
+            <button 
+              onClick={handleContactClick}
+              className="bg-pks-red text-white px-3 md:px-4 py-2 rounded-lg font-semibold hover:bg-red-700 transition-colors text-sm md:text-base"
             >
               {t('contact')}
-            </a>
+            </button>
 
             {/* Language Switcher */}
-            <div className="flex gap-2 border-l border-gray-300 pl-4">
+            <div className="hidden md:flex gap-2 border-l border-gray-300 pl-4">
               {locales.map((loc, index) => (
                 <span key={loc.code}>
                   <button
@@ -145,37 +143,72 @@ export default function Header() {
                 </span>
               ))}
             </div>
+
+            {/* Hamburger Menu Button */}
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="lg:hidden flex flex-col gap-1.5 p-2 hover:bg-gray-100 rounded transition-colors"
+              aria-label="Toggle menu"
+            >
+              <span className={`block w-6 h-0.5 bg-pks-blue transition-all ${isMobileMenuOpen ? 'rotate-45 translate-y-2' : ''}`}></span>
+              <span className={`block w-6 h-0.5 bg-pks-blue transition-all ${isMobileMenuOpen ? 'opacity-0' : ''}`}></span>
+              <span className={`block w-6 h-0.5 bg-pks-blue transition-all ${isMobileMenuOpen ? '-rotate-45 -translate-y-2' : ''}`}></span>
+            </button>
           </div>
         </div>
 
         {/* Mobile Navigation */}
-        <nav className="lg:hidden flex flex-wrap gap-3 pb-4">
-          <Link 
-            href={`/${locale}`} 
-            className="text-pks-blue hover:bg-gray-100 px-3 py-2 rounded text-sm transition-colors"
-          >
-            {t('home')}
-          </Link>
-          <Link 
-            href={`/${locale}/invest-in-serbia`} 
-            className="text-pks-blue hover:bg-gray-100 px-3 py-2 rounded text-sm transition-colors"
-          >
-            {t('investInSerbia')}
-          </Link>
-          <Link 
-            href={`/${locale}/help-for-startups`} 
-            className="text-pks-blue hover:bg-gray-100 px-3 py-2 rounded text-sm transition-colors"
-          >
-            {t('helpForStartups')}
-          </Link>
-          <a 
-            href={`/${locale}/contact`} 
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-pks-blue hover:bg-gray-100 px-3 py-2 rounded text-sm transition-colors"
-          >
-            {t('contact')}
-          </a>
+        <nav className={`lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${
+          isMobileMenuOpen ? 'max-h-96 pb-4' : 'max-h-0'
+        }`}>
+          <div className="flex flex-col gap-2 pt-2">
+            <Link 
+              href={`/${locale}`} 
+              className="text-pks-blue hover:bg-gray-100 px-4 py-3 rounded transition-colors"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              {t('home')}
+            </Link>
+            <Link 
+              href={`/${locale}/invest-in-serbia`} 
+              className="text-pks-blue hover:bg-gray-100 px-4 py-3 rounded transition-colors"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              {t('investInSerbia')}
+            </Link>
+            <Link 
+              href={`/${locale}/help-for-startups`} 
+              className="text-pks-blue hover:bg-gray-100 px-4 py-3 rounded transition-colors"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              {t('helpForStartups')}
+            </Link>
+            
+            {/* Mobile Language Switcher */}
+            <div className="flex gap-2 px-4 py-3 border-t border-gray-200 mt-2">
+              <span className="text-pks-blue font-semibold mr-2">Language:</span>
+              {locales.map((loc, index) => (
+                <span key={loc.code}>
+                  <button
+                    onClick={() => {
+                      switchLocale(loc.code);
+                      setIsMobileMenuOpen(false);
+                    }}
+                    className={`px-3 py-1 rounded transition-colors ${
+                      locale === loc.code
+                        ? 'bg-pks-red text-white font-bold'
+                        : 'text-pks-blue hover:bg-gray-200'
+                    }`}
+                  >
+                    {loc.label}
+                  </button>
+                  {index < locales.length - 1 && (
+                    <span className="mx-1 text-gray-400">|</span>
+                  )}
+                </span>
+              ))}
+            </div>
+          </div>
         </nav>
       </div>
     </header>
