@@ -10,19 +10,21 @@ export default function ContactPage() {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Hero Section */}
-      <section className="bg-pks-blue text-white py-16">
-        <div className="container-custom">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              {t('title')}
-            </h1>
-            <p className="text-xl md:text-2xl text-blue-100">
-              {t('subtitle')}
-            </p>
+      {/* Contact Section - Replaceable */}
+      <div id="contact-section">
+        {/* Hero Section */}
+        <section className="bg-pks-blue text-white py-16">
+          <div className="container-custom">
+            <div className="max-w-4xl mx-auto text-center">
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">
+                {t('title')}
+              </h1>
+              <p className="text-xl md:text-2xl text-blue-100">
+                {t('subtitle')}
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
       {/* Contact Information */}
       <section className="py-16">
@@ -211,51 +213,52 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Office Hours */}
-      <section className="bg-white py-16">
-        <div className="container-custom">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl font-bold text-pks-blue mb-8">
-              {t('officeHours')}
-            </h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  {t('weekdays')}
-                </h3>
-                <p className="text-gray-600">
-                  {t('weekdaysHours')}
-                </p>
-              </div>
-              <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                  {t('weekends')}
-                </h3>
-                <p className="text-gray-600">
-                  {t('weekendsHours')}
-                </p>
+        {/* Office Hours */}
+        <section className="bg-white py-16">
+          <div className="container-custom">
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="text-3xl font-bold text-pks-blue mb-8">
+                {t('officeHours')}
+              </h2>
+              <div className="grid md:grid-cols-2 gap-8">
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4">
+                    {t('weekdays')}
+                  </h3>
+                  <p className="text-gray-600">
+                    {t('weekdaysHours')}
+                  </p>
+                </div>
+                <div className="bg-gray-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-4">
+                    {t('weekends')}
+                  </h3>
+                  <p className="text-gray-600">
+                    {t('weekendsHours')}
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Back to Home */}
-      <section className="bg-gray-50 py-12">
-        <div className="container-custom">
-          <div className="text-center">
-            <Link
-              href={`/${locale}`}
-              className="inline-flex items-center px-6 py-3 bg-pks-blue text-white rounded-lg hover:bg-blue-700 transition-colors"
-            >
-              <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-              </svg>
-              {t('backToHome')}
-            </Link>
+        {/* Back to Home */}
+        <section className="bg-gray-50 py-12">
+          <div className="container-custom">
+            <div className="text-center">
+              <Link
+                href={`/${locale}`}
+                className="inline-flex items-center px-6 py-3 bg-pks-blue text-white rounded-lg hover:bg-blue-700 transition-colors"
+              >
+                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+                {t('backToHome')}
+              </Link>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
   );
 }
