@@ -9,9 +9,7 @@ export default function ContactPage() {
   const locale = useLocale();
 
   return (
-    <>
-      {/* Contact Section - Replaceable */}
-      <div id="contact-section" className="pt-20 bg-gray-50">
+    <div id="contact-section" className="min-h-screen pt-20 bg-gray-50">
         {/* Hero Section */}
         <section className="bg-pks-blue text-white py-16">
           <div className="container-custom">
@@ -258,7 +256,6 @@ export default function ContactPage() {
             </div>
           </div>
         </section>
-      </div>
-    </>
+    </div>
   );
 }
