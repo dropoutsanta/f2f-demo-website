@@ -109,12 +109,12 @@ export default function Header() {
 
           {/* Right Section */}
           <div className="flex items-center gap-6">
-            {/* Call Center */}
+            {/* Contact Button */}
             <Link 
               href={`/${locale}/contact`} 
-              className="hidden md:block text-sm text-pks-blue hover:text-pks-red transition-colors"
+              className="hidden md:block bg-pks-red text-white px-4 py-2 rounded-lg font-semibold hover:bg-red-700 transition-colors"
             >
-              <p className="font-semibold">{t('callCenter')}</p>
+              {t('contact')}
             </Link>
 
             {/* Language Switcher */}
