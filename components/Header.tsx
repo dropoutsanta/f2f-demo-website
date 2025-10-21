@@ -110,12 +110,14 @@ export default function Header() {
           {/* Right Section */}
           <div className="flex items-center gap-6">
             {/* Contact Button */}
-            <Link 
+            <a 
               href={`/${locale}/contact`} 
+              target="_blank"
+              rel="noopener noreferrer"
               className="hidden md:block bg-pks-red text-white px-4 py-2 rounded-lg font-semibold hover:bg-red-700 transition-colors"
             >
               {t('contact')}
-            </Link>
+            </a>
 
             {/* Language Switcher */}
             <div className="flex gap-2 border-l border-gray-300 pl-4">
@@ -160,12 +162,14 @@ export default function Header() {
           >
             {t('helpForStartups')}
           </Link>
-          <Link 
+          <a 
             href={`/${locale}/contact`} 
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-pks-blue hover:bg-gray-100 px-3 py-2 rounded text-sm transition-colors"
           >
             {t('contact')}
-          </Link>
+          </a>
         </nav>
       </div>
     </header>
