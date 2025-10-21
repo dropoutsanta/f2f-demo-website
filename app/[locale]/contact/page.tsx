@@ -9,7 +9,7 @@ export default function ContactPage() {
   const locale = useLocale();
 
   return (
-    <div id="contact-section" className="pt-4 bg-gray-50">
+    <div id="contact-section" className="bg-gray-50">
         {/* Hero Section */}
         <section className="bg-pks-blue text-white py-16">
           <div className="container-custom">
