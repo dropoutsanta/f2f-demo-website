@@ -139,6 +139,36 @@
       "button": "Registrujte svoj startap",
       "home": "Nazad na početnu"
     }
+  },
+  "contact": {
+    "title": "Kontaktirajte nas",
+    "subtitle": "Stupite u kontakt sa Privrednom komorom Srbije",
+    "getInTouch": "Stupite u kontakt",
+    "address": "Adresa",
+    "addressText": "Resavska 13-15, 11000 Beograd, Srbija",
+    "phone": "Telefon",
+    "phoneText": "+381 11 3304 000",
+    "email": "Email",
+    "emailText": "info@pks.rs",
+    "callCenter": "Call centar",
+    "callCenterText": "0800 808 809 (Besplatan poziv iz Srbije)",
+    "sendMessage": "Pošaljite nam poruku",
+    "firstName": "Ime",
+    "lastName": "Prezime",
+    "subject": "Predmet",
+    "selectSubject": "Izaberite predmet",
+    "generalInquiry": "Opšti upit",
+    "investmentInquiry": "Upit o investicijama",
+    "startupSupport": "Podrška za startape",
+    "membership": "Članstvo",
+    "other": "Ostalo",
+    "message": "Poruka",
+    "officeHours": "Radno vreme",
+    "weekdays": "Ponedeljak - Petak",
+    "weekdaysHours": "08:00 - 17:00",
+    "weekends": "Subota - Nedelja",
+    "weekendsHours": "Zatvoreno",
+    "backToHome": "Nazad na početnu"
   }
 }
 

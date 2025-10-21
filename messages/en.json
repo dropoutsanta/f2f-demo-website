@@ -139,6 +139,36 @@
       "button": "Register Your Startup",
       "home": "Back to Home"
     }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with the Serbian Chamber of Commerce and Industry",
+    "getInTouch": "Get in Touch",
+    "address": "Address",
+    "addressText": "Resavska 13-15, 11000 Belgrade, Serbia",
+    "phone": "Phone",
+    "phoneText": "+381 11 3304 000",
+    "email": "Email",
+    "emailText": "info@pks.rs",
+    "callCenter": "Call Center",
+    "callCenterText": "0800 808 809 (Free call from Serbia)",
+    "sendMessage": "Send us a Message",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "subject": "Subject",
+    "selectSubject": "Select a subject",
+    "generalInquiry": "General Inquiry",
+    "investmentInquiry": "Investment Inquiry",
+    "startupSupport": "Startup Support",
+    "membership": "Membership",
+    "other": "Other",
+    "message": "Message",
+    "officeHours": "Office Hours",
+    "weekdays": "Monday - Friday",
+    "weekdaysHours": "8:00 AM - 5:00 PM",
+    "weekends": "Saturday - Sunday",
+    "weekendsHours": "Closed",
+    "backToHome": "Back to Home"
   }
 }
 

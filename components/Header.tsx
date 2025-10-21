@@ -110,9 +110,12 @@ export default function Header() {
           {/* Right Section */}
           <div className="flex items-center gap-6">
             {/* Call Center */}
-            <div className="hidden md:block text-sm text-pks-blue">
+            <Link 
+              href={`/${locale}/contact`} 
+              className="hidden md:block text-sm text-pks-blue hover:text-pks-red transition-colors"
+            >
               <p className="font-semibold">{t('callCenter')}</p>
-            </div>
+            </Link>
 
             {/* Language Switcher */}
             <div className="flex gap-2 border-l border-gray-300 pl-4">
@@ -156,6 +159,12 @@ export default function Header() {
             className="text-pks-blue hover:bg-gray-100 px-3 py-2 rounded text-sm transition-colors"
           >
             {t('helpForStartups')}
+          </Link>
+          <Link 
+            href={`/${locale}/contact`} 
+            className="text-pks-blue hover:bg-gray-100 px-3 py-2 rounded text-sm transition-colors"
+          >
+            {t('contact')}
           </Link>
         </nav>
       </div>

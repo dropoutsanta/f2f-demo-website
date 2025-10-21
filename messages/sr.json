@@ -139,6 +139,36 @@
       "button": "Региструјте свој стартап",
       "home": "Назад на почетну"
     }
+  },
+  "contact": {
+    "title": "Контактирајте нас",
+    "subtitle": "Ступите у контакт са Привредном комором Србије",
+    "getInTouch": "Ступите у контакт",
+    "address": "Адреса",
+    "addressText": "Ресавска 13-15, 11000 Београд, Србија",
+    "phone": "Телефон",
+    "phoneText": "+381 11 3304 000",
+    "email": "Емаил",
+    "emailText": "инфо@пкс.рс",
+    "callCenter": "Цалл центар",
+    "callCenterText": "0800 808 809 (Бесплатан позив из Србије)",
+    "sendMessage": "Пошаљите нам поруку",
+    "firstName": "Име",
+    "lastName": "Презиме",
+    "subject": "Предмет",
+    "selectSubject": "Изаберите предмет",
+    "generalInquiry": "Општи упит",
+    "investmentInquiry": "Упит о инвестицијама",
+    "startupSupport": "Подршка за стартапе",
+    "membership": "Чланство",
+    "other": "Остало",
+    "message": "Порука",
+    "officeHours": "Радно време",
+    "weekdays": "Понедељак - Петак",
+    "weekdaysHours": "08:00 - 17:00",
+    "weekends": "Субота - Недеља",
+    "weekendsHours": "Затворено",
+    "backToHome": "Назад на почетну"
   }
 }
 
