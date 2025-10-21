@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useLocale, useTranslations } from 'next-intl';
+import { useState } from 'react';
 
 const locales = [
   { code: 'sr', label: 'ћир' },
@@ -14,6 +15,7 @@ export default function Header() {
   const t = useTranslations('nav');
   const locale = useLocale();
   const pathname = usePathname();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const switchLocale = (newLocale: string) => {
     if (newLocale === locale) {
@@ -70,6 +72,10 @@ export default function Header() {
     });
     
     window.location.href = newPath;
+  };
+
+  const handleContactClick = () => {
+    window.location.reload();
   };
 
   return (
