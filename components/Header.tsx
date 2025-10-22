@@ -75,7 +75,8 @@ export default function Header() {
   };
 
   const handleContactClick = () => {
-    window.location.reload();
+    // Navigate to contact page first, then refresh
+    window.location.href = `/${locale}/contact`;
   };
 
   return (
